@@ -43,8 +43,8 @@ Sigue los siguientes pasos para clonar y ejecutar este proyecto en tu entorno lo
     ```bash data-copyable
     py tc.py
 
-    ![Execution](Results/Solicitud.png)
-
 5. **Resultado:**
+
+![Execution](Results/Solicitud.png)
 
 [Data](Results/datos.csv)
