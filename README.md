@@ -5,9 +5,12 @@
 
 Este proyecto de automatización fue realizado como prueba tecnica, abre la pagina de inicio de [https://www.bcn.gob.ni/IRR/tipo_cambio_mensual/index.php](https://www.bcn.gob.ni/IRR/tipo_cambio_mensual/index.php)
 
-Navega hacia la sección de contacto, completa el formulario ingresando un email falso y comprueba que el email se haya validado como incorrecto.
+Navega hacia el formulario de tabla mensual de deslizamiento del tipo de cambio oficial, rango de fechas y seguidamente estableces el rango que deseas descargar, considerando que:
 
-Se realizo utilizando: unittest, Selenium WebDriver y HtmlTestRunner para generar un reporte del test.
+- Existe un Históricos por años (1931 - 2013))
+- A partir del 31 de Diciembre de 2023, la Tasa de Cambio se mantiene en C$36.6243.
+
+![Form](Results/Formulario.png)
 
 ### Clonar y Ejecutar Proyecto
 
@@ -48,3 +51,5 @@ Sigue los siguientes pasos para clonar y ejecutar este proyecto en tu entorno lo
 ![Execution](Results/Solicitud.png)
 
 [Data](Results/datos.csv)
+
+[Notebook](Resultado_Carga_Datos.ipynb)
