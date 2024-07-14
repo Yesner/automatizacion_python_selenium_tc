@@ -7,7 +7,7 @@ import csv
 from datetime import datetime
 
 def configurar_webdriver():
-    service = Service('C:/chromedriver_win32/chromedriver.exe')
+    service = Service('Ruta:/chromedriver_win32/chromedriver.exe')
     driver = webdriver.Chrome(service=service)
     driver.maximize_window()
     driver.implicitly_wait(15)
@@ -36,7 +36,7 @@ def extraer_datos(driver, url_completa):
         return []
 
 def escribir_csv(datos):
-    with open('C:/Users/yesal/Desktop/Python/scrapping/TasaCambioNic/datos.csv', 'w', newline='', encoding='utf-8') as archivo_csv:
+    with open('Ruta/TasaCambioNic/datos.csv', 'w', newline='', encoding='utf-8') as archivo_csv:
         escritor_csv = csv.writer(archivo_csv)
         for fila in datos:
             escritor_csv.writerow(fila)
