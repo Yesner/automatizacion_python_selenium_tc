@@ -48,8 +48,6 @@ Sigue los siguientes pasos para clonar y ejecutar este proyecto en tu entorno lo
 
 5. **Resultado:**
 
-![Execution](Results/Solicitud.png)
-
 [Data](Results/datos.csv)
 
 [Notebook](Resultado_Carga_Datos.ipynb)
