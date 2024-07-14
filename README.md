@@ -48,6 +48,8 @@ Sigue los siguientes pasos para clonar y ejecutar este proyecto en tu entorno lo
 
 5. **Resultado:**
 
+<video controls src="Results/Ejecucion.mp4" title="Ejecución"></video>
+
 [Data](Results/datos.csv)
 
 [Notebook](Resultado_Carga_Datos.ipynb)
